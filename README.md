@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React Scientific Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive, themeable scientific calculator built with **Create React App** and deployed on **Vercel**.  
+It supports basic arithmetic, scientific functions, memory operations, keyboard input, calculation history, and light/dark themes.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+- Production: https://calculator-react-app-self.vercel.app/
+- Main branch preview: https://calculator-react-app-git-main-pranav-shalyas-projects.vercel.app/
+- Older preview: https://calculator-react-1v9o9y7b0-pranav-shalyas-projects.vercel.app/
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Basic operations: addition, subtraction, multiplication, division
+- Scientific mode: square root, square, percentage, reciprocal, power
+- Memory operations: MC, MR, M+, M−
+- Calculation history with click‑to‑recall results
+- Keyboard support for digits, operators, Enter, Escape, and clear
+- Light/Dark theme toggle
+- Responsive design suitable for desktop and mobile
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Basic Layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Calculator basic view](image-1.jpg)
 
-### `npm run build`
+### Scientific Mode
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Calculator scientific mode](image-2.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### History Panel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Calculator history panel](image-3.jpg)
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React (Create React App)
+- CSS for styling and responsiveness
+- Vercel for deployment and hosting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run development server
+npm start
 
-## Learn More
+The app will be available at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Build and Deploy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create production build
+npm run build
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The `build` folder can be deployed to any static hosting provider.  
+This project is currently deployed using Vercel; you can import the GitHub repository into Vercel and connect a project to enable automatic deployments on every push.
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `src/App.js` – main calculator logic and UI
+- `src/App.css` – styling, themes, responsive layout
 
-### Making a Progressive Web App
+## Possible Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add support for parentheses and more advanced expressions
+- Add unit tests for calculator operations
+- Internationalization and different number formats
